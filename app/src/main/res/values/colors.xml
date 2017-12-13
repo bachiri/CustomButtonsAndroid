@@ -3,4 +3,13 @@
   <color name="colorPrimary">#3F51B5</color>
   <color name="colorPrimaryDark">#303F9F</color>
   <color name="colorAccent">#FF4081</color>
+
+  <color name="login_button_pressed">#1e88e5</color>
+  <color name="login_button_unpressed">#42a5f5</color>
+  <color name="submit_button_pressed">#1db954</color>
+  <color name="submit_button_unpressed">#42ed7f</color>
+  <color name="custom_fab_Button_unpressed">#ffd54f</color>
+  <color name="custom_fab_Button_pressed">#f4bf16</color>
+  <color name="error_Button_unpressed">#fa061b</color>
+  <color name="error_Button_pressed">#f7575a</color>
 </resources>

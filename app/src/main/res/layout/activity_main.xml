@@ -1,21 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.bachirio.custombuttonsandroid.MainActivity"
+    android:orientation="vertical"
     >
 
-  <TextView
-      android:layout_width="wrap_content"
+  <LinearLayout
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Hello World!"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      />
+      android:layout_marginTop="5dp"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      >
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="Simple Button"
+        />
+
+    <io.bachirio.custombuttons.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:pressed_color="@color/login_button_pressed"
+        app:btn_shape_type="rectangle"
+        app:unpressed_color="@color/login_button_unpressed"
+        />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      >
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text=" Round Corner Button"
+        />
+
+    <io.bachirio.custombuttons.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:pressed_color="@color/submit_button_pressed"
+        app:round_radius="50dp"
+        app:btn_shape_type="rectangle"
+        app:unpressed_color="@color/submit_button_unpressed"
+        />
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      >
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="Circle Button"
+        />
+
+    <io.bachirio.custombuttons.CustomButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:pressed_color="@color/custom_fab_Button_pressed"
+        app:round_radius="50dp"
+        app:btn_shape_type="circle"
+        app:unpressed_color="@color/custom_fab_Button_unpressed"
+        />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      >
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="Error Like Button"
+        />
+
+    <io.bachirio.custombuttons.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:pressed_color="@color/error_Button_pressed"
+        app:btn_shape_type="rectangle"
+        app:unpressed_color="@color/error_Button_unpressed"
+        />
+  </LinearLayout>
+
+
+
+</LinearLayout>
