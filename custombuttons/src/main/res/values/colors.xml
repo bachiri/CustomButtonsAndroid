@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+  <color name="transparent">#00000000</color>
+  <color name="pressed_color">#c3d0da</color>
+  <color name="unpressed_color">#707478</color>
+
+</resources>
+
+
